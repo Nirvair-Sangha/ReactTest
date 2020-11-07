@@ -12,7 +12,7 @@ const Tools = (props) => {
                 <h1 className="display-3">Tools</h1>
                 <p className="lead">Some of the tools we will be using to work on this project include React.js to develop the 
                 front end, node.js to develop the back end, Jira to help keep track of what tasks must be done by who and when,
-                and finally GitHub which will simplify the process of working as a team and keeping track of multiple changes in the code.</p>
+                and finally GitHub which will simplify the process of working as a team and keeping track of multiple changes in the code. Yes</p>
                 <hr classname="my-2" />
                 <Media>
                     <Media left top href="#">
