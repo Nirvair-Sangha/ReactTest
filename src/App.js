@@ -15,14 +15,13 @@ function App() {
         <AddNumbers/>
         <OurButton/>
         <Tools/>
-        <PictureTools/>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React Fast
         </a>
       </header>
     </div>
