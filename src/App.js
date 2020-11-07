@@ -1,15 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import OurButton from './OurButton'//./ is from this directory
+import TryingLifecycle from './TryingLifecycle'
+import AddNumbers from './AddNumbers/AddNumbers.js'
+import Tools from './Tools';
+import PictureTools from './PictureTools'
 
 function App() {
+  if(1 == 1){
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <AddNumbers/>
+        <OurButton/>
+        <Tools/>
+        <PictureTools/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -21,6 +27,11 @@ function App() {
       </header>
     </div>
   );
+  }else{
+    return(
+      <h1> 1 does not equal 1</h1>
+    )
+  }
 }
 
 export default App;
